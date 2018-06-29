@@ -6,5 +6,11 @@ pipeline {
         build 'git'
       }
     }
+    stage('test') {
+      agent any
+      steps {
+        build 'git'
+      }
+    }
   }
 }
