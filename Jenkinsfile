@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        build 'automation-test-strict'
+        build 'git'
       }
     }
   }
